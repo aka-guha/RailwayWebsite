@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title h1{
+    padding-left: 28px;
+    font-size: 60px;
+    text-align: right;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(270,0,0,1));
+}
+.title h4{
+    margin-left: 30px;
+    padding-left: 5px;
+    background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(270,0,0,1));
+    font-weight: 500;
+    font-size: 28px;
+}
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img {
+    height: 120px;
+    padding-left: 30px;
+}
+
+.navbar-nav li {
+    padding: 0 2px;
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover
+{   font-weight: 600;
+    color: #007bff!important;
+    
+}
+
+.navbar { background: #fff;}
+.navbar-toggler { border: none!important;}
+.nav-link{
+    color: #555!important;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#slider img{
+    margin-left: 80px;
+    width: 90%;
+    height: 40%!important;
+   filter: brightness(50%);
+}
+
+
+#about{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #555;
+}
+
+#about .btn{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.about-content {
+    padding-top: 5px;
+     display: none;
+  overflow: hidden;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background-color: dodgerblue;
+}
+
+.icon{
+    font-size: 40px;
+    padding-left: 20px;
+    width: 50px;
+}
+
+#officials{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    color: #555;
+}
+
+h2{
+    text-align: center;
+    color: #555!important;
+}
+
+h2::after{
+    content: '';
+    background: #007fff;
+    display: block;
+    height: 3px;
+    width: 260px;
+    margin: 5px auto 5px;
+}
+
+.profile-pic .img-box{
+    padding-top: 15px;
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+ 
+.profile-pic h5:hover, h6:hover{
+    color: #007fff!important;
+    cursor: pointer;
+    font-weight: 600;
+}
+.img-box ul li{
+    display: inline-block;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.profile-pic .img-box img{
+    filter: grayscale(1);
+}
+
+.profile-pic .img-box img:hover{
+    filter: grayscale(0);
+       box-shadow: 0px 1px 4px 2px #007fff;
+}
+
+#footer{
+    background: #333; 
+    color: aliceblue;
+    padding: 15px;
+    }
+
+.fa-copyright{
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.navigate {
+  list-style-type: none;
+  margin-left: 71%;
+}
+
+.navigate li {
+  display: inline;
+  font-size: 18px;
+  padding: 5px;
+}
+
+
+#footer .navigate li a:hover{
+    color: #007fff!important;
+}
+
+
+.fs::after{
+    margin-top: 5px; 
+     content: '';
+    background: #007fff;
+    display: block;
+    height: 3px;
+    width: 355px;
+}
+
+.ir::after{
+    margin-top: 5px;
+     content: '';
+    background: #007fff;
+    display: block;
+    height: 3px;
+    width: 228px;
+}
+
+
+
